@@ -32,3 +32,5 @@ router.post('/users/login', async(req, res) => {
     res.send(token)
 })
 
+module.exports = router
+
