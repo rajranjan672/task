@@ -31,3 +31,4 @@ router.post('/users/login', async(req, res) => {
     const token = await user.getSignedjwt()
     res.send(token)
 })
+
